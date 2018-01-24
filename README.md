@@ -33,12 +33,8 @@ This an example project using VueJS and using the following packages:
 
 ### Project
 
-    ```
-    $ npx parcel
-    ```
+    $ npm start
 
 ### Storybook
 
-    ```
     $ npm run storybook
-    ```

@@ -1,15 +1,12 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
+    <h1>Vue Components</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  props: {
-    msg: String
-  }
+  name: 'app'
 }
 </script>
 
