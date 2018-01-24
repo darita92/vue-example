@@ -1,0 +1,46 @@
+{
+  "name": "vue-example",
+  "version": "1.0.0",
+  "description": "Simple Vue Example",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darita92/vue-example.git"
+  },
+  "keywords": [
+    "vue",
+    "example",
+    "javascript",
+    "boilerplate"
+  ],
+  "author": "Daniel Arita <danielarita92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darita92/vue-example/issues"
+  },
+  "homepage": "https://github.com/darita92/vue-example#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "vue": "^2.5.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-vue": "^4.2.0",
+    "parcel-bundler": "^1.5.0",
+    "parcel-plugin-eslint": "^1.0.3",
+    "parcel-plugin-vue": "^1.5.0",
+    "@storybook/vue": "^3.3.10",
+    "@storybook/addon-actions": "^3.3.10",
+    "@storybook/addon-links": "^3.3.10",
+    "@storybook/addons": "^3.3.10",
+    "babel-core": "^6.26.0",
+    "babel-preset-vue": "^2.0.0"
+  }
+}
